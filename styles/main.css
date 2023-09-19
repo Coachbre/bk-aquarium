@@ -1,0 +1,21 @@
+body {
+  background-color: tan;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fishCard {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  background-color: aliceblue;
+}
+
+img {
+  height: 100px;
+  width: 150px;
+  margin-bottom: -10px;
+}
