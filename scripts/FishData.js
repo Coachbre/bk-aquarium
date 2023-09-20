@@ -1,10 +1,14 @@
+export const getFish = () => {
+  return fishCollection
+}
+
 const fishCollection = [
   {
     name: "Malcolm",
     species:"Blue Tang",
     length: "10 inches",
     found: "Pacific Ocean",
-    diet: "algae"
+    diet: "algae",
   },
   {
     name:"Bob",
