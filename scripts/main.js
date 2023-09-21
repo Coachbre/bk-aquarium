@@ -11,7 +11,14 @@
  // iterate through each fish/object in all the fish and console log each object */
 
 // Imports the FishList
-import { FishList } from "./FishList.js";
+import { FishList } from "./fish/FishList.js";
 
-FishList()
+FishList();
 //calls imported fishlist function
+
+
+// Tip Data main js info
+
+import { TipList } from "./tips/TipList.js";
+
+TipList();
