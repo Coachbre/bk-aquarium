@@ -6,7 +6,7 @@ export const Tip = (tipObj) => {
     <ul>
         <li class="tip-details">Habitat: ${tipObj.habitat}</li>
         <li class="tip-details">Cleaning tools: ${tipObj.cleaning}</li>
-        <li class="tip-details">Run schedule: ${tipObj.schedule}</li>
+        <li class="tip-details">Schedule: ${tipObj.schedule}</li>
     </ul>
   </article>`
 }
