@@ -1,4 +1,5 @@
 @import "tips.css";
+@import "location.css";
 
 body {
   background-color: darkcyan;
@@ -50,7 +51,7 @@ nav a:active {
 
 .fishTank {
   margin: 1em 0;
-  display: flex;
+  /* display: flex; */
 }
 
 .fishList {
