@@ -22,3 +22,9 @@ FishList();
 import { TipList } from "./tips/TipList.js";
 
 TipList();
+
+
+// Location Data main js info
+import { LocationCollection } from "./location/LocationList.js";
+
+LocationCollection();
