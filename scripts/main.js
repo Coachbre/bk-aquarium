@@ -16,15 +16,6 @@ import { FishList } from "./fish/FishList.js";
 FishList();
 //calls imported fishlist function
 
-import { getMostHolyFish } from "./fish/FishData.js";
-getMostHolyFish();
-
-import { getSoldierFish } from "./fish/FishData.js";
-getSoldierFish();
-
-import { getUnworthy } from "./fish/FishData.js";
-getUnworthy();
-
 // Tip Data main js info
 
 import { TipList } from "./tips/TipList.js";
