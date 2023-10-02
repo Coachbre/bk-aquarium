@@ -111,7 +111,6 @@ export const getMostHolyFish = () => {
       holyFishArray.push(fish)
     }
   }
-console.log(holyFishArray);
   return holyFishArray
 } //for each fish in the collection, if length divided by 3 has a remainder of 0, add to array of 'holy' fish then creturn full list
 
@@ -125,7 +124,7 @@ export const getSoldierFish = () => {
       soldierFishArray.push(fish)
     }
   }
-  console.log(soldierFishArray);
+
   return soldierFishArray
 }
 
@@ -139,6 +138,6 @@ export const getUnworthy = () => {
       unworthyFishArray.push(fish)
     }
   }
-  console.log(unworthyFishArray);
+ 
   return unworthyFishArray
 }
